@@ -1,0 +1,70 @@
+append jscss
+    link(rel='stylesheet', href='https://fonts.googleapis.com/icon?family=Material+Icons')
+    link(rel='stylesheet', href='/CSS/chatstyle.css')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css')
+    script(src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous")
+    script(type = "text/javascript"
+    src = "https://code.jquery.com/jquery-2.1.1.min.js")
+    script(src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js")
+    script(src="/JS/main.js" charset="utf-8")
+    script(src="/socket.io/socket.io.js" charset="utf-8")
+append card-content
+        .container.center#contenedor1
+            .row.center
+                .col.s12.m6
+                    .card.indigo.darken-4
+                        .card-content.white-text
+                            span.card-title Enter your Nickname
+                            form#nick-Form
+                                input#envianick.validate.col.s10.m6.white-text(name='', type='text', data-length="10", required, placeholder="Nickname")
+                                a(class='btn-small' type="submit" href='#' id="nickenv") Entrar       
+        .row#contenedor
+            .col.m3.s12.white.title#title
+                    .row#buscacli
+                        .col.m12.s12.users#users           
+                            ul.usercon#usercon                     
+            .col.m6.white.message
+                ul.conectados
+                    form#message-form
+                        li.mensa
+                            .row.center.z-depth-1.section#mensamensa   
+                        li.envmen
+                            .row.center.z-depth-1.section#envmen
+                                .input-field.col.s8#continput
+                                        input#enviamensaje.validate.col.s10(name='', type='text', data-length="10", required, placeholder="Mensaje")
+                                a(class='btn-small' type="submit" href='#' id="mesaenv") Enviar mensaje             
+            .col.m3.cyan.white.conf       
+                    .row#imgcont
+                        .col.m10.s12
+                            img(src="/IMG/emo1.gif" class="emoticones" id="emo1")
+                            img(src="/IMG/emo2.gif" class="emoticones" id="emo2")
+                            img(src="/IMG/emo3.gif" class="emoticones" id="emo3")
+                            img(src="/IMG/emo4.gif" class="emoticones" id="emo4")
+                            img(src="/IMG/emo5.gif" class="emoticones" id="emo5")
+                            img(src="/IMG/emo6.gif" class="emoticones" id="emo6")
+                            img(src="/IMG/emo7.gif" class="emoticones" id="emo7")
+                            img(src="/IMG/emo8.gif" class="emoticones" id="emo8")
+                            img(src="/IMG/emo9.gif" class="emoticones" id="emo9")
+                            img(src="/IMG/emo10.gif" class="emoticones" id="emo10")
+                            img(src="/IMG/emo11.gif" class="emoticones" id="emo11")
+                            img(src="/IMG/emo12.gif" class="emoticones" id="emo12")
+                            img(src="/IMG/emo13.gif" class="emoticones" id="emo13")
+                            img(src="/IMG/emo14.gif" class="emoticones" id="emo14")
+                            img(src="/IMG/emo15.gif" class="emoticones" id="emo15")
+                            img(src="/IMG/emo16.gif" class="emoticones" id="emo16")
+                            img(src="/IMG/emo17.gif" class="emoticones" id="emo17")
+                            img(src="/IMG/emo18.gif" class="emoticones" id="emo18")
+                            img(src="/IMG/emo19.gif" class="emoticones" id="emo19")
+                            img(src="/IMG/emo20.gif" class="emoticones" id="emo20")
+                            img(src="/IMG/emo21.gif" class="emoticones" id="emo21")
+                            img(src="/IMG/emo22.gif" class="emoticones" id="emo22")
+                            img(src="/IMG/emo23.gif" class="emoticones" id="emo23")
+                            img(src="/IMG/emo24.gif" class="emoticones" id="emo24")
+                            img(src="/IMG/emo25.gif" class="emoticones" id="emo25")
+                            img(src="/IMG/emo26.gif" class="emoticones" id="emo26")
+                            img(src="/IMG/emo27.gif" class="emoticones" id="emo27")
+                            img(src="/IMG/emo28.gif" class="emoticones" id="emo28")
+                            img(src="/IMG/emo29.gif" class="emoticones" id="emo29")
+                            img(src="/IMG/emo30.gif" class="emoticones" id="emo30")
+
